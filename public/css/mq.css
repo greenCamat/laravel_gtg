@@ -1,0 +1,24 @@
+/* Simple fluid media
+   Note: Fluid media requires that you remove the media's height and width attributes from the HTML
+   http://www.alistapart.com/articles/fluid-images/ 
+*/
+img, object, embed, video {
+  /*max-width: 100%;*/
+}
+/* IE 6 does not support max-width so default to width 100% */
+.ie6 img {
+  /*width:100%;*/
+}
+
+/* Mobile Layout: 480px and below. */
+
+
+/* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
+@media only screen and (min-width: 481px) {
+
+}
+
+/* Desktop Layout: 769px to a max of 960px.  Inherits styles from: Mobile Layout and Tablet Layout. */
+@media only screen and (min-width: 769px) {
+
+}

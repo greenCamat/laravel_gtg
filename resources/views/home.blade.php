@@ -10,9 +10,12 @@
 <!--CSS-->
 <link rel="stylesheet" href="{!! asset('css/custom.css') !!}" type="text/css">
 <link rel="stylesheet" href="{!! asset('css/style.css') !!}" type="text/css">
-<link rel="stylesheet" href="../css/style2.css">
-<link rel="stylesheet" href="../css/mq.css">
-<link rel="stylesheet" href="../css/transition.css">
+<link rel="stylesheet" href="{!! asset('css/style2.css') !!}" type="text/css">
+<link rel="stylesheet" href="{!! asset('css/mq.css') !!}" type="text/css">
+<link rel="stylesheet" href="{!! asset('css/transition.css') !!}" type="text/css">
+
+<!--JAVASCRIPT-->
+<script type="text/javascript" src="../js/modernizr.min.js"></script>
 
 </head>
 <body>

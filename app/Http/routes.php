@@ -11,11 +11,10 @@
 |
 */
 
-Route::get('/', function () {
+Route::get('/laravel', function () {
     return view('welcome');
 });
 
-Route::get('/home', function () {
-    $url = asset('custom.css');
+Route::get('/', function () {
     return view('home');
 });
